@@ -1,40 +1,16 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
+      <p>Donate a tree</p>
       <div className={styles.center}>
         <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
+          src="/images/save-planet_earth-in-hands.png"
+          alt="zwei Hände halten einen durchsichtigen Globus mit einem Baum darin"
+          width={420}
+          height={500}
           priority
         />
       </div>
@@ -90,6 +66,53 @@ export default function Home() {
           </p>
         </a>
       </div>
+      <div className={styles.navigation}>
+        <div>
+          <Image
+            src="/images/logo-1_project-2.png"
+            alt="Planet wird mit einem Ast umrundet"
+            width={50}
+            height={50}
+            priority
+          />
+        </div>
+        <div>
+          <Image
+            src="/images/logo-1_donation-1.png"
+            alt="zwei Hände aus denen ein Baum wächst"
+            width={50}
+            height={50}
+            priority
+          />
+        </div>
+        <div>
+          <Image
+            src="/images/logo-1_comunity.png"
+            alt="drei Personen abstrakt als Bäume dargestellt. Mit erhobenen Armen aud denen Blätter wachsen"
+            width={50}
+            height={50}
+            priority
+          />
+        </div>
+        <div>
+          <Image
+            src="/images/logo-1_user-2.png"
+            alt="Person die von einem abstrakten Ast und einem Wasserkreis umrundet wird. Am Ende des Astes wachsen Blätter"
+            width={50}
+            height={50}
+            priority
+          />
+        </div>
+        <div>
+          <Image
+            src="/images/logo-1_blog-4.png"
+            alt="Das drei Pfeile Recycling-Symbol. Ein Pfeil ist durch ein Blatt ersetzt"
+            width={50}
+            height={50}
+            priority
+          />
+        </div>
+      </div>
     </main>
-  )
+  );
 }
