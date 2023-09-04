@@ -71,8 +71,8 @@ export default function Home() {
           <Image
             src="/images/logo-1_project-2.png"
             alt="Planet wird mit einem Ast umrundet"
-            width={50}
-            height={50}
+            width={60}
+            height={60}
             priority
           />
         </div>
@@ -80,8 +80,8 @@ export default function Home() {
           <Image
             src="/images/logo-1_donation-1.png"
             alt="zwei Hände aus denen ein Baum wächst"
-            width={50}
-            height={50}
+            width={60}
+            height={60}
             priority
           />
         </div>
@@ -89,8 +89,8 @@ export default function Home() {
           <Image
             src="/images/logo-1_comunity.png"
             alt="drei Personen abstrakt als Bäume dargestellt. Mit erhobenen Armen aud denen Blätter wachsen"
-            width={50}
-            height={50}
+            width={60}
+            height={60}
             priority
           />
         </div>
@@ -98,8 +98,8 @@ export default function Home() {
           <Image
             src="/images/logo-1_user-2.png"
             alt="Person die von einem abstrakten Ast und einem Wasserkreis umrundet wird. Am Ende des Astes wachsen Blätter"
-            width={50}
-            height={50}
+            width={60}
+            height={60}
             priority
           />
         </div>
@@ -107,8 +107,8 @@ export default function Home() {
           <Image
             src="/images/logo-1_blog-4.png"
             alt="Das drei Pfeile Recycling-Symbol. Ein Pfeil ist durch ein Blatt ersetzt"
-            width={50}
-            height={50}
+            width={60}
+            height={60}
             priority
           />
         </div>
