@@ -17,9 +17,9 @@
     #0071ff33 160deg,
     transparent 360deg
   ); */
-  --primary-glow: radial-gradient(rgba(0, 255, 90, 0.3), rgba(0, 255, 90, 0.6));
+  --primary-glow: radial-gradient(rgba(0, 255, 90, 0.3), rgba(0, 179, 62, 0.4));
   --secondary-glow: radial-gradient(
-    rgba(0, 255, 90, 0.2),
+    rgba(0, 179, 62, 0.2),
     rgba(0, 255, 90, 0.1)
   );
 
@@ -38,7 +38,7 @@
   --nav-background-rgb: 255, 255, 255;
   --nav-background-end-rgb: 245, 255, 245;
   --nav-border-rgb: 172, 175, 176;
-  --card-rgb: 180, 185, 188;
+  --card-rgb: 0, 255, 90;
   --card-border-rgb: 131, 134, 135;
 }
 
@@ -101,8 +101,11 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
-  font-weight: 600;
+  margin-top: 1rem;
+  color: #404040;
+  font-size: 2.5rem;
+  font-weight: 650;
+  text-align: center;
 }
 
 a {
