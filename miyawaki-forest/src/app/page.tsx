@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <p>Donate a tree</p>
+      <h1>Donate a tree</h1>
       <div className={styles.center}>
         <Image
           src="/images/save-planet_earth-in-hands.png"
@@ -67,51 +67,59 @@ export default function Home() {
         </a>
       </div>
       <div className={styles.navigation}>
-        <div>
-          <Image
-            src="/images/logo-1_project-2.png"
-            alt="Planet wird mit einem Ast umrundet"
-            width={60}
-            height={60}
-            priority
-          />
-        </div>
-        <div>
-          <Image
-            src="/images/logo-1_donation-1.png"
-            alt="zwei Hände aus denen ein Baum wächst"
-            width={60}
-            height={60}
-            priority
-          />
-        </div>
-        <div>
+        <a href="">
+          <div>
+            <Image
+              src="/images/logo-1_project-3.png"
+              alt="Planet wird mit einem Ast umrundet"
+              width={75}
+              height={60}
+              priority
+            />
+          </div>
+        </a>
+        <a href="">
+          <div>
+            <Image
+              src="/images/logo-1_donation-1.png"
+              alt="zwei Hände aus denen ein Baum wächst"
+              width={70}
+              height={60}
+              priority
+            />
+          </div>
+        </a>
+        {/* <div>
           <Image
             src="/images/logo-1_comunity.png"
             alt="drei Personen abstrakt als Bäume dargestellt. Mit erhobenen Armen aud denen Blätter wachsen"
-            width={60}
+            width={70}
             height={60}
             priority
           />
-        </div>
-        <div>
-          <Image
-            src="/images/logo-1_user-2.png"
-            alt="Person die von einem abstrakten Ast und einem Wasserkreis umrundet wird. Am Ende des Astes wachsen Blätter"
-            width={60}
-            height={60}
-            priority
-          />
-        </div>
-        <div>
-          <Image
-            src="/images/logo-1_blog-4.png"
-            alt="Das drei Pfeile Recycling-Symbol. Ein Pfeil ist durch ein Blatt ersetzt"
-            width={60}
-            height={60}
-            priority
-          />
-        </div>
+        </div> */}
+        <a href="">
+          <div>
+            <Image
+              src="/images/logo-1_user-2.png"
+              alt="Person die von einem abstrakten Ast und einem Wasserkreis umrundet wird. Am Ende des Astes wachsen Blätter"
+              width={65}
+              height={60}
+              priority
+            />
+          </div>
+        </a>
+        <a href="">
+          <div>
+            <Image
+              src="/images/logo-1_blog-1.png"
+              alt="Das drei Pfeile Recycling-Symbol. Ein Pfeil ist durch ein Blatt ersetzt"
+              width={64}
+              height={60}
+              priority
+            />
+          </div>
+        </a>
       </div>
     </main>
   );
