@@ -17,48 +17,28 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <a
-            href="#"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="projects" className={styles.card}>
             <h2>
-              Unsere Projekte <span>-&gt;</span>
+              Zielsetzungen <span>-&gt;</span>
             </h2>
             <p>Lass Dich von unseren Ideen inspirieren!</p>
           </a>
 
-          <a
-            href="#"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="donation" className={styles.card}>
             <h2>
               Baumspenden <span>-&gt;</span>
             </h2>
             <p>Stöber in unserer Liste guter Bäume, um zu spenden.</p>
           </a>
 
-          <a
-            href="#"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="community" className={styles.card}>
             <h2>
               Zusammenhalt <span>-&gt;</span>
             </h2>
             <p>Schließ Dich uns an! Nur zusammen sind wir stark.</p>
           </a>
 
-          <a
-            href="#"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="blog" className={styles.card}>
             <h2>
               Wissenswertes <span>-&gt;</span>
             </h2>
@@ -66,9 +46,10 @@ export default function Home() {
           </a>
         </div>
         <div className={styles.navigation}>
-          <a href="">
-            <div>
+          <a href="projects">
+            <div className={styles.imageBox}>
               <Image
+                className={styles.image}
                 src="/images/logo-1_project-4.png"
                 alt="Das drei Pfeile Recycling-Symbol. Ein Pfeil ist durch ein Blatt ersetzt"
                 width={70}
@@ -77,12 +58,13 @@ export default function Home() {
               />
             </div>
           </a>
-          <a href="">
+          <a href="donation">
             <div>
               <Image
+                className={styles.image}
                 src="/images/logo-1_donation-1.png"
                 alt="zwei Hände aus denen ein Baum wächst"
-                width={70}
+                width={75}
                 height={60}
                 priority
               />
@@ -97,9 +79,10 @@ export default function Home() {
             priority
           />
         </div> */}
-          <a href="">
+          <a href="community">
             <div>
               <Image
+                className={styles.image}
                 src="/images/logo-1_user-2.png"
                 alt="Person die von einem abstrakten Ast und einem Wasserkreis umrundet wird. Am Ende des Astes wachsen Blätter"
                 width={65}
@@ -108,9 +91,10 @@ export default function Home() {
               />
             </div>
           </a>
-          <a href="">
+          <a href="blog">
             <div>
               <Image
+                className={styles.image}
                 src="/images/logo-1_blog-1.png"
                 alt="Aus einem aufgeschlagenem Buch wächst ein grüne Stadt mit einem zentralen Baum"
                 width={64}
