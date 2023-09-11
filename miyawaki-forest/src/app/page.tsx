@@ -97,7 +97,7 @@ export default function Home() {
                 className={styles.image}
                 src="/images/logo-1_blog-1.png"
                 alt="Aus einem aufgeschlagenem Buch wächst ein grüne Stadt mit einem zentralen Baum"
-                width={64}
+                width={80}
                 height={60}
                 priority
               />
